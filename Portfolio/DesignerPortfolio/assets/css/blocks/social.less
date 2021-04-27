@@ -1,0 +1,20 @@
+// main: ../stylesheet.less
+
+.social {
+    display: flex;
+
+    margin-bottom: 42px;
+}
+
+.social__link {
+    border-color: @black;
+    text-decoration: none;
+    margin-right: 10px;
+
+    transition: transform .2s linear;
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}

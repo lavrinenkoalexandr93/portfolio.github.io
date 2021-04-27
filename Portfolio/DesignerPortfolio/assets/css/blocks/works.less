@@ -1,0 +1,23 @@
+// main: ../stylesheet.less
+
+.works {
+    margin: 2.8rem 0;
+}
+.works__nav {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1.4rem;
+   
+}
+
+.works__nav-link {
+    color: fade(@black,70%);
+    font-size: 0.8rem;
+    line-height: 2.2;
+    text-decoration: none;
+
+    + .works__nav-link {
+        margin-left: 2rem;
+    }
+}
